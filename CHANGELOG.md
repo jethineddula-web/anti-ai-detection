@@ -11,8 +11,10 @@ tagged releases of the catalog.
 ### Added
 
 - Standard open-source repo scaffolding: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `CHANGELOG.md`, `.editorconfig`, `.gitattributes`
-- GitHub community templates under `.github/` (issue forms, PR template, funding placeholder)
+- GitHub community templates under `.github/` (issue forms, PR template, funding)
 - Expanded root `README.md` with badges, structure table, and contribution links
+- GitHub Sponsors entry in `.github/FUNDING.yml`
+
 
 ## [0.1.0] - 2026-03-22
 
