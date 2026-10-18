@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Usage question
+    url: https://github.com/jethineddula-web/anti-ai-detection/discussions
+    about: Ask how to plug ANTI_SLOP.md into Cursor, Claude, or ChatGPT (enable Discussions if needed).

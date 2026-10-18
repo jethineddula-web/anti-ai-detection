@@ -1,0 +1,47 @@
+/* Example design tokens that deliberately avoid common AI defaults.
+   Accent is terracotta, not indigo/violet.
+   Fonts are Fraunces + Source Serif 4.
+*/
+
+:root {
+  /* Neutrals — warm, not pure gray */
+  --bg: #f7f3ee;
+  --bg-elevated: #fffdf9;
+  --fg: #1c1917;
+  --fg-muted: #57534e;
+  --border: #e7e0d8;
+
+  /* Accent — terracotta */
+  --accent: #c45c26;
+  --accent-hover: #a34a1d;
+  --accent-subtle: #f3e0d4;
+  --on-accent: #fffdf9;
+
+  /* Type */
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-body: "Source Serif 4", "Georgia", serif;
+  --font-ui: "Source Serif 4", "Georgia", serif;
+
+  /* Radii — moderate, not rounded-2xl everywhere */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Elevation — reserved */
+  --shadow-none: none;
+  --shadow-modal: 0 20px 40px rgba(28, 25, 23, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1917;
+    --bg-elevated: #292524;
+    --fg: #fafaf9;
+    --fg-muted: #a8a29e;
+    --border: #44403c;
+    --accent: #e07a3d;
+    --accent-hover: #f0955c;
+    --accent-subtle: #3f2a1f;
+    --on-accent: #1c1917;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bad Cards — AI Slop Example</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      padding: 3rem 1.5rem;
+    }
+    .grid {
+      max-width: 960px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.08);
+      border-left: 4px solid #6366f1;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .icon {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 0.75rem;
+      background: #e0e7ff;
+      color: #4f46e5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.125rem;
+    }
+    p {
+      margin: 0;
+      color: #64748b;
+      font-size: 0.875rem;
+    }
+    @media (max-width: 800px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Lightning fast</h3>
+      <p>Experience blazing performance out of the box with our seamless infrastructure.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔒</div>
+      <h3>Secure by default</h3>
+      <p>Enterprise-grade security so you can focus on what matters most.</p>
+    </div>
+    <div class="card">
+      <div class="icon">✨</div>
+      <h3>Beautiful design</h3>
+      <p>A modern interface your team will love from day one.</p>
+    </div>
+  </div>
+</body>
+</html>
